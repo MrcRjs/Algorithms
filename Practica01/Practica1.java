@@ -1,4 +1,3 @@
-package p1;
 import java.util.Scanner;
 public class Practica1 {
 
@@ -21,10 +20,10 @@ public class Practica1 {
 		System.out.println("\n\nEjercicio 2.9");
 		// ################################
 		
-		// a) Los operadores en Java se evalúan de izquierda a derecha
+		// a) Los operadores en Java se evaluan de izquierda a derecha
 		int j = 1 + 3 * 4;
 		System.out.println(j);
-		//  == Verdadero == ya que primero hace la multiplicación y despues la suma
+		//  == Verdadero == ya que primero hace la multiplicacion y despues la suma
 		 
 		// b) 
 		int _barra_inferior;
@@ -68,7 +67,7 @@ public class Practica1 {
 		System.out.println("\nEjercicio 2.11");
 		// ################################
 		
-		//¿Cuales de las siguientes instrucciones contiene variables, cuyo valores se modifican?
+		// Cuales de las siguientes instrucciones contiene variables, cuyo valores se modifican?
 		// a) p=i+j+k+7; <-- La variable "p" es modificada
 		// b) System.out.println("variables cuyos valores se modifican") <-- Solo imprime texto
 		// c) System.out.println("a=5"); <-- Solo muestra el texto
@@ -114,14 +113,14 @@ public class Practica1 {
 		System.out.println("\nEjercicio 2.14");
 		// ################################
 		
-		// Mediante una instrucción println()
+		// Mediante una instruccion println()
 	    System.out.println("1 2 3 4");
 	    // Mediante 4 instrucciones print()
 	    System.out.print("1 ");
 	    System.out.print("2 ");
 	    System.out.print("3 ");
 	    System.out.print("4");
-	    // Mediante una instrucción printf
+	    // Mediante una instruccion printf
 	    System.out.printf("\n1 2 3 4");
 	    
 	    // ################################
@@ -129,9 +128,9 @@ public class Practica1 {
 	    System.out.println("\n\nEjercicio 2.15");
 	    // ################################
 	   
-	    System.out.println("Ingresa el primer número:");
+	    System.out.println("Ingresa el primer numero:");
 	    float num1 = in.nextFloat();
-	    System.out.println("Ingresa el segundo número:");
+	    System.out.println("Ingresa el segundo numero:");
 	    float num2 = in.nextFloat();
 	    
 	    System.out.println("Suma: " + num1 + " + " + num2 + " = " + (num1 + num2));

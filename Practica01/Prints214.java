@@ -1,3 +1,4 @@
+package Practica01;
 public class Prints214 {
   public static void main(String[] args) {
     // Mediante una instrucción println()
