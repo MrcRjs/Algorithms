@@ -1,8 +1,9 @@
+package Practica02;
 import java.util.Scanner;
-public class Aritmetica215 {
+public class Aritmetica21 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    System.out.println("// Aritmética 2.15 //");
+    System.out.println("// Aritmética 2.1 //");
     System.out.println("Ingresa el primer número:");
     float num1 = in.nextFloat();
     System.out.println("Ingresa el segundo número:");
